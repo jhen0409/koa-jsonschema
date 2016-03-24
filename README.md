@@ -17,7 +17,7 @@ $ npm install --save koa-bodyparser@3 koa-jsonschema
 
 ```js
 const bodyParser = require('koa-bodyparser');
-const schema = require('..');
+const schema = require('koa-jsonschema');
 const koa = require('koa');
 
 const app = new koa();
