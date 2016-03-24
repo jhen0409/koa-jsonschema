@@ -1,0 +1,29 @@
+{
+  "name": "koa-jsonschema",
+  "version": "0.1.0",
+  "description": "A Koa middleware for validate JSONSchema",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhen0409/koa-jsonschema.git"
+  },
+  "keywords": [
+    "koa",
+    "jsonschema"
+  ],
+  "author": "Jhen <developer@jhen.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.2.0"
+  },
+  "dependencies": {
+    "jsonschema": "^1.1.0"
+  }
+}
